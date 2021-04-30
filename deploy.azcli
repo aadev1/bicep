@@ -1,0 +1,2 @@
+az group create --location westeurope --name bicep-rg
+az deployment group create -f ./main.bicep -g bicep-rg
